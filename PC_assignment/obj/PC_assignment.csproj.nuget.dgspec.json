@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Repositories\\PC_assignment\\PC_assignment\\PC_assignment.csproj": {}
+    "D:\\Projects\\PC_assignment\\PC_assignment\\PC_assignment.csproj": {}
   },
   "projects": {
-    "D:\\Repositories\\PC_assignment\\PC_assignment\\PC_assignment.csproj": {
+    "D:\\Projects\\PC_assignment\\PC_assignment\\PC_assignment.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repositories\\PC_assignment\\PC_assignment\\PC_assignment.csproj",
+        "projectUniqueName": "D:\\Projects\\PC_assignment\\PC_assignment\\PC_assignment.csproj",
         "projectName": "PC_assignment",
-        "projectPath": "D:\\Repositories\\PC_assignment\\PC_assignment\\PC_assignment.csproj",
+        "projectPath": "D:\\Projects\\PC_assignment\\PC_assignment\\PC_assignment.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "D:\\Repositories\\PC_assignment\\PC_assignment\\obj\\",
+        "outputPath": "D:\\Projects\\PC_assignment\\PC_assignment\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
