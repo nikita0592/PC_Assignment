@@ -12,24 +12,6 @@ namespace TestRating
         public DateTime DateOfBirth { get; set; }
         public decimal CalcRating();
         public bool ValidatePolicy();
-        //public string FullName { get; set; }
-        //public DateTime DateOfBirth { get; set; }
-
-        //#region Life Insurance
-        //public bool IsSmoker { get; set; }
-        //public decimal Amount { get; set; }
-        //#endregion
-
-        //#region Travel
-        //public string Country { get; set; }
-        //public int Days { get; set; }
-        //#endregion
-
-        //#region Health
-        //public string Gender { get; set; }
-        //public decimal Deductible { get; set; }
-        //#endregion
-
     }
 
     public class GeneralPolicy : IPolicy
@@ -111,17 +93,14 @@ namespace TestRating
         {
             if (Days <= 0)
             {
-                //Console.WriteLine("Travel policy must specify Days.");
                 throw new Exception(LogMessages.RatingEngineLogMessages.TravelPolicyMustSpecifyDays);
             }
             if (Days > 180)
             {
-                //Console.WriteLine("Travel policy cannot be more then 180 Days.");
                 throw new Exception(LogMessages.RatingEngineLogMessages.TravelPolicyDaysLimit);
             }
             if (String.IsNullOrEmpty(Country))
             {
-                //Console.WriteLine("Travel policy must specify country.");
                 throw new Exception(LogMessages.RatingEngineLogMessages.TravelPolicyMustSpecifyCountry);
             }
 
@@ -162,7 +141,6 @@ namespace TestRating
         {
             if (DateOfBirth == DateTime.MinValue)
             {
-                //Console.WriteLine("Life policy must include Date of Birth.");
                 throw new Exception(LogMessages.RatingEngineLogMessages.LifePolicyMustIncludeBirthDate);
             }
             if (DateOfBirth < DateTime.Today.AddYears(-100))

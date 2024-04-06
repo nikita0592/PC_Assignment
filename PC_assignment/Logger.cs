@@ -6,12 +6,6 @@ using System.Threading.Tasks;
 
 namespace PC_assignment
 {
-    //public interface ILogger
-    //{
-    //    void Log(string message);
-    //    void Log(IEnumerable<string> messages);
-    //}
-
     public static class Logger
     {
         public static void Log(string message)
